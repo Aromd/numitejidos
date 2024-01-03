@@ -1,5 +1,6 @@
-# Numitejidos
+# Numi Tejidos Website
 
+Este proyecto es el sitio web institucional de Numi Tejidos
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
 ## Development server
