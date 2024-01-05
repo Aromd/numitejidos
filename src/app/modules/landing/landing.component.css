@@ -1,3 +1,16 @@
 :host {
   display: block;
 }
+
+main {
+  background-color: var(--light-blue);
+}
+
+.container {
+  margin: 0rem 3.2rem;
+}
+
+span {
+  font-size: var(--medium-regular);
+  font-weight: 700;
+}
