@@ -1,1 +1,69 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+:root {
+    /* Colors */
+    --white: #FFFFFF;
+    --light-blue: #D2E8F0;
+    --bright-pink: #EC8AC6;
+    --salmon: #FABDCA;
+    --light-green: #C5EBE0;
+    --black: #231F20;
+    --body-regular: 1.6rem;
+    --body-regular-desktop: 1.8rem;
+    --medium-regular: 2rem;
+    --mini-regular: 1.3rem;
+    --big-regular: 3.6rem;
+}
+
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+body {
+    color: var(--black);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: var(--body-regular);
+    font-weight: 400;
+}
+
+h1 {
+    font-size: var(--medium-regular);
+    font-weight: 400;
+}
+
+small {
+    font-size: var(--mini-regular);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--body-regular);
+}
+
+@media screen and (min-width: 1270px) {
+    h1 {
+        font-size: var(--big-regular);
+    }
+}
