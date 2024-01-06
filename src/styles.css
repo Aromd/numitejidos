@@ -16,6 +16,7 @@
     --light-green: #C5EBE0;
     --black: #231F20;
     --body-regular: 1.6rem;
+    --body-regular-desktop: 1.8rem;
     --medium-regular: 2rem;
     --mini-regular: 1.3rem;
     --big-regular: 3.6rem;
@@ -54,7 +55,13 @@ small {
     font-size: var(--mini-regular);
 }
 
-@media screen and (min-width: 136.5rem) {
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--body-regular);
+}
+
+@media screen and (min-width: 1270px) {
     h1 {
         font-size: var(--big-regular);
     }
